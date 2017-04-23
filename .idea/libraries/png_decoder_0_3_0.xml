@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="png-decoder-0.3.0">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/sample/build/intermediates/exploded-aar/rapid.decoder/png-decoder/0.3.0/res" />
+      <root url="jar://$PROJECT_DIR$/sample/build/intermediates/exploded-aar/rapid.decoder/png-decoder/0.3.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/Downloads/Bomba/caches/modules-2/files-2.1/rapid.decoder/png-decoder/0.3.0/84fc5c865f3f58c738c0542ebfae0fedba06f26c/png-decoder-0.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

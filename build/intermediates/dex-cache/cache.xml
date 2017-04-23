@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.0.0_a91267f19802a2adc5e9aa1c2f564aeac53f064e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\android\sample\build\intermediates\exploded-aar\rapid.decoder\jpeg-decoder\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="072b7e37f6e7f6ca62b6a0a027dd4cf7bb6ba56e">
+        <dex dex="C:\Users\tc34677\Documents\android\sample\build\intermediates\pre-dexed\debug\rapid.decoder-jpeg-decoder-0.3.0_e62b301fecaa2f59db69ac7261095393424e8354.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.1.1_a9135befba4b19092a9c23f303b1e661a0038403.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\24.1.1\support-annotations-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="3af19f153122737b372622fa6c81dd11a1c6b999">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\pre-dexed\debug\support-annotations-24.1.1_faeb039bf1512229274aedc1d4a2e66190fc3876.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\exploded-aar\com.davemorrissey.labs\library\3.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ae3fb5e70b67cf542338288b0d68c6c367da7367">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\pre-dexed\debug\com.davemorrissey.labs-library-3.6.0_dba0df0e002a7515816a769127a0661db8dbd9cd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\exploded-aar\rapid.decoder\library\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8946841ad5f067fce19c524e02518b944892d704">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\pre-dexed\debug\rapid.decoder-library-0.3.0_0d7b7ba33eec198566c9610884e5ba9fbbe3f1c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\android\sample\build\intermediates\exploded-aar\rapid.decoder\png-decoder\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="03c1c1013e90bca19941830a74c508682691a0de">
+        <dex dex="C:\Users\tc34677\Documents\android\sample\build\intermediates\pre-dexed\debug\rapid.decoder-png-decoder-0.3.0_9d5a0443fcfdfd648235328334981c2f00f6af55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\exploded-aar\android\scanlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="2168fd62364a06afc36bc0041d4975fc3820ed54">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\pre-dexed\debug\android-scanlibrary-unspecified_82f03ca91b95b75b9fe8d678f2a0f8cb93117aae.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="C:\Users\tc34677\Documents\android2\sample\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_6a8afa443ebeb4d581e734a16232c0c958f61616.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.1.1_5f6233e104186ede059bf3ba4aff6138ff91b69c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.1.1_496518b8dd739514935a0ec40b96dc12dba6a98b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0_2287ecd0644e82906582150ec4c29b349d354450.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\android2\sample\build\intermediates\exploded-aar\com.davemorrissey.labs\library\3.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6fb6d5038772808314dbb369a7032ff4edd83c09">
+        <dex dex="C:\Users\tc34677\Documents\android2\sample\build\intermediates\pre-dexed\debug\com.davemorrissey.labs-library-3.6.0_b86ebccbc2f181d9326a51d58e0b18071b04a582.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\android2\sample\libs\poi-excelant-3.16.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8110d0ba750bc5352a5451fab57855de6f298916">
+        <dex dex="C:\Users\tc34677\Documents\android2\sample\build\intermediates\pre-dexed\debug\poi-excelant-3.16_c729ff4df120a76a13c9c8fddad225c8c92037bd.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\exploded-aar\rapid.decoder\jpeg-decoder\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="072b7e37f6e7f6ca62b6a0a027dd4cf7bb6ba56e">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\pre-dexed\debug\rapid.decoder-jpeg-decoder-0.3.0_a7d69944c54a08a8454e50336cf066cc9353a77f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\tc34677\Documents\android\sample\build\intermediates\pre-dexed\debug\support-annotations-25.1.0_7bb4037d3fd43590bbb5842083f8a638f732bfa7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_5a93a6d29f5605a1ec97d9296c928a59d08aaedf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\exploded-aar\com.android.support\design\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\pre-dexed\debug\com.android.support-design-24.0.0_6f4c511b2e14137c4d4d723e28a44b7212dce08e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\android2\sample\build\intermediates\exploded-aar\rapid.decoder\png-decoder\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="03c1c1013e90bca19941830a74c508682691a0de">
+        <dex dex="C:\Users\tc34677\Documents\android2\sample\build\intermediates\pre-dexed\debug\rapid.decoder-png-decoder-0.3.0_fed65b8796089dd5ca2757e3164d1a7c10f640d4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="c936c1bd42f0c018c18920c7bec619ef056b24f8">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-24.1.1_d209e7b4922ecc192666b191df96019981fa0978.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\exploded-aar\android2\scanlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9fe3e4298c0d475b24fc1f1c55e51605224389f5">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\pre-dexed\debug\android2-scanlibrary-unspecified_26a44d2a897435ada9688e3960f0c92c58dc71ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\android\sample\build\intermediates\exploded-aar\com.davemorrissey.labs\library\3.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ae3fb5e70b67cf542338288b0d68c6c367da7367">
+        <dex dex="C:\Users\tc34677\Documents\android\sample\build\intermediates\pre-dexed\debug\com.davemorrissey.labs-library-3.6.0_82d76d0a1a652e0ebced8de4740dd4cb199f49f6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f62e763609f65e47dc6c498760a4accf02776788">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-24.1.1_aa288328e92b78e13d72e3633d5353fb0f2d86ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\android\sample\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="C:\Users\tc34677\Documents\android\sample\build\intermediates\pre-dexed\debug\android-support-v4_5499f3e5b07ad7ec0d636ee4d4138f031e4c1994.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\pre-dexed\debug\android-support-v4_d124bd5837ad6986bc15d138accbb61d6a3652ed.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-24.0.0_d45c217fdcd7fdaea93a1212ce7fa286aba94912.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\exploded-aar\android\scanlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="2168fd62364a06afc36bc0041d4975fc3820ed54">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\pre-dexed\debug\android-scanlibrary-unspecified_431f4c49b6b4ef360dff7e2f75fe6e5fae9989fa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\exploded-aar\rapid.decoder\png-decoder\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="03c1c1013e90bca19941830a74c508682691a0de">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\sample\build\intermediates\pre-dexed\debug\rapid.decoder-png-decoder-0.3.0_031b8f98f50b2d6b274c4565add4c63a9e984b09.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\android\sample\build\intermediates\exploded-aar\rapid.decoder\library\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8946841ad5f067fce19c524e02518b944892d704">
+        <dex dex="C:\Users\tc34677\Documents\android\sample\build\intermediates\pre-dexed\debug\rapid.decoder-library-0.3.0_4acfebddd5ac4bda2f8611f6f59a09c80c8a60e9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="1256c10604bb098490eab070d76754ac5ceab35c">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-24.1.1_bd0af6b05406766de1f713744567c6b4c9428de1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\exploded-aar\rapid.decoder\library\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8946841ad5f067fce19c524e02518b944892d704">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\pre-dexed\debug\rapid.decoder-library-0.3.0_84e7c208bf194ae83f8eedb0002439f887b0992b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\android2\sample\build\intermediates\exploded-aar\rapid.decoder\library\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8946841ad5f067fce19c524e02518b944892d704">
+        <dex dex="C:\Users\tc34677\Documents\android2\sample\build\intermediates\pre-dexed\debug\rapid.decoder-library-0.3.0_5d9af8fc322c74bf3af2941753f409d40c3c026b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\exploded-aar\rapid.decoder\png-decoder\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="03c1c1013e90bca19941830a74c508682691a0de">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\pre-dexed\debug\rapid.decoder-png-decoder-0.3.0_5317e751b55ad1e301d08bd9bd2fc05aaf1ce452.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\exploded-aar\rapid.decoder\jpeg-decoder\0.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="072b7e37f6e7f6ca62b6a0a027dd4cf7bb6ba56e">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\pre-dexed\debug\rapid.decoder-jpeg-decoder-0.3.0_f75e575471b5da2f32da571761673b0e42b83452.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="6d7d803871e3203465f71a163e7af104f807b446">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.1.1_debc6670b7568e4f08b33baf109cfe5947bf212c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\android2\sample\build\intermediates\exploded-aar\android2\scanlibrary\unspecified\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="9fe3e4298c0d475b24fc1f1c55e51605224389f5">
+        <dex dex="C:\Users\tc34677\Documents\android2\sample\build\intermediates\pre-dexed\debug\android2-scanlibrary-unspecified_59bae9baf18f7ba3c2708e0c0f7c62cafb6fcea6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\app\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_13a740a3b7622969764e8973001243a21c9969be.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.1.1\jars\libs\internal_impl-24.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.1"
+        sha1="f78c2f395cb096f9dc1dc07e729922b8fcd3c4f5">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\app\build\intermediates\pre-dexed\debug\internal_impl-24.1.1_2925e128073c3c721a1370acef817c338c8fa1e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\exploded-aar\com.davemorrissey.labs\library\3.6.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6fb6d5038772808314dbb369a7032ff4edd83c09">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\pre-dexed\debug\com.davemorrissey.labs-library-3.6.0_d1089a02fc69d85b7116612f282c918e1c0bc784.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\libs\android-support-v4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.3"
+        sha1="5896b0a4e377ac4242eb2bc785220c1c4fc052f4">
+        <dex dex="C:\Users\tc34677\Documents\Ver#1\android1\android\android2\sample\build\intermediates\pre-dexed\debug\android-support-v4_e4bfced3ada268e85f3f3ed88e0fb6d1487afc0b.jar" />
+    </item>
+
+</items>

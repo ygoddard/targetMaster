@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+
+    <HorizontalScrollView
+        android:id="@+id/topBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fillViewport="false">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical">
+
+
+            <Button
+                android:id="@+id/original"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Original" />
+
+            <Button
+                android:id="@+id/magicColor"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Magic color" />
+
+            <Button
+                android:id="@+id/grayMode"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Gray Mode" />
+
+            <Button
+                android:id="@+id/BWMode"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="B and W" />
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/topBar"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/scanPadding">
+
+        <ImageView
+            android:id="@+id/scannedImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/scanPadding" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/doneButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/bottom_background_color"
+        android:orientation="horizontal"
+        android:padding="@dimen/bottom_bar_padding"
+        android:text="@string/done"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"></Button>
+
+
+</RelativeLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+    <LinearLayout android:orientation="vertical"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/self"
+                android:layout_width="wrap_content"
+                android:layout_height="800dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/buttonstate_transparent"
+                android:padding="10dp"
+                android:orientation="vertical"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_height="match_parent"
+                android:src="@drawable/strike"
+                android:id="@+id/scannedImage"
+                android:layout_weight="8.75"
+                android:layout_width="800dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/libraryPic"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="16dp"
+                android:paddingRight="16dp"
+                android:textSize="16sp"
+                android:text="Library"
+                android:layout_weight="1"
+                android:background="#333" />
+
+            <Button
+                    android:id="@+id/CameraPic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center_horizontal"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:textSize="16sp"
+                    android:text="Camera"
+                android:layout_weight="1"
+                android:background="#333" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:baselineAligned="false">
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.80" />
+
+            <TextView
+                android:text="Series:"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView7"
+                android:layout_weight="0.83"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:paddingTop="15dp" />
+
+            <EditText
+                android:layout_width="106dp"
+                android:layout_height="match_parent"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/etSeries"
+                android:gravity="bottom" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.22" />
+
+            <ImageButton
+                android:src="@drawable/excel"
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnExcel"
+                android:scaleType="fitCenter" />
+
+            <Space
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical">
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#333333"/>
+
+            <TextView
+                    android:id="@+id/animation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#333"
+                    android:gravity="center_horizontal"
+                    android:padding="10dp"
+                    android:textSize="18sp"
+                    android:text="Mark Hits"/>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#333333"/>
+
+            <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1px"
+                    android:background="#333333"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,245 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+    <com.davemorrissey.labs.subscaleview.sample.extension.views.PinView
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_above="@+id/text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <RelativeLayout
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#333"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true">
+        <ImageView
+                android:id="@+id/previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/buttonstate_transparent"
+                android:visibility="visible"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:src="@drawable/previous"/>
+
+        <ImageView
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/buttonstate_transparent"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:visibility="invisible"
+                android:src="@drawable/next"/>
+
+        <ImageView
+                android:id="@+id/clearAllPins"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/next"
+                android:layout_centerVertical="true"
+                android:background="@drawable/buttonstate_transparent"
+                android:paddingLeft="8dp"
+                android:paddingRight="8dp"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:visibility="invisible"
+                android:src="@android:drawable/ic_menu_delete"/>
+
+        <ImageView
+            android:id="@+id/setCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/next"
+            android:layout_centerVertical="true"
+            android:background="@drawable/buttonstate_transparent"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:src="@android:drawable/ic_menu_compass"
+            android:visibility="invisible"/>
+        <ImageView
+            android:id="@+id/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstate_transparent"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:src="@android:drawable/ic_menu_revert"
+            android:layout_alignParentTop="true"
+            android:visibility="invisible"
+            android:layout_toLeftOf="@+id/clearAllPins" />
+
+        <ImageView
+            android:id="@+id/mark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstate_transparent"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:src="@android:drawable/ic_menu_add"
+            android:layout_alignParentTop="true"
+            android:visibility="invisible"
+            android:layout_toLeftOf="@+id/undo" />
+
+
+        <TextView
+                android:id="@+id/note"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:layout_toLeftOf="@id/mark"
+                android:layout_toRightOf="@id/previous"
+                android:layout_centerVertical="true"
+                android:padding="10dp"
+                android:textSize="14sp"
+                android:textColor="#FFFFFF"/>
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@android:drawable/ic_menu_compass"
+            android:gravity="center"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="0dp"
+            android:id="@+id/markHit"
+            android:visibility="invisible"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/next"
+            android:layout_toRightOf="@+id/undo" />
+
+        <ToggleButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableTop="@android:drawable/ic_menu_delete"
+            android:gravity="center"
+            android:textOff=""
+            android:textOn=""
+            android:textSize="0dp"
+            android:id="@+id/deleteHit"
+            android:visibility="invisible"
+            android:layout_alignTop="@+id/note"
+            android:layout_marginTop="10dp"
+            android:layout_toRightOf="@+id/mark"
+            android:layout_toLeftOf="@+id/clearAllPins" />
+
+        <ImageView
+            android:id="@+id/rotateLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstate_transparent"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:src="@drawable/rotate_left"
+            android:visibility="invisible"
+            android:elevation="1dp"
+            android:layout_toLeftOf="@+id/mark" />
+
+        <ImageView
+            android:id="@+id/rotateRight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/buttonstate_transparent"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:src="@drawable/rotate_right"
+            android:longClickable="true"
+            android:visibility="invisible"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/note" />
+
+        <ImageView
+            android:id="@+id/centerDoneBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/actionBarBackground"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="18dp"
+            android:src="@drawable/white_check_small"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/clearAllPins" />
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text"
+        android:layout_alignParentLeft="true"
+        android:background="#333">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" />
+
+        <TextView
+            android:text="TRV [m]"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView11"
+            android:layout_weight="0.07" />
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/trvTxt"
+            android:layout_weight="0.02"
+            android:layout_width="131dp"
+            android:text="2.3" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.19" />
+
+        <TextView
+            android:text="ELV [m]"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView15"
+            android:layout_weight="0.05" />
+
+        <EditText
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/elvTxt"
+            android:text="2.3" />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.13" />
+
+    </LinearLayout>
+
+</RelativeLayout>

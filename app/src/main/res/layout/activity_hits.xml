@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.scanner.demo.HitsActivity">
+
+    <!--include layout="@layout/content_main2" /-->
+
+    <com.scanner.demo.ZoomView
+    android:id="@+id/zoomView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/placeholder"
+            android:id="@+id/imageView"
+            android:layout_weight="0.81"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:cropToPadding="false" />
+
+        <FrameLayout
+        android:layout_height="match_parent"
+            android:id="@+id/rr"
+        android:layout_marginTop="70dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="30dp"
+            android:layout_width="385dp">
+
+        </FrameLayout>
+
+    </com.scanner.demo.ZoomView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_weight="0.03"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="mini"
+            android:layout_gravity="bottom|center"
+            app:srcCompat="@drawable/undo"
+            app:backgroundTint="@android:color/holo_orange_light"
+            android:layout_weight="1"
+            android:id="@+id/undoFab" />
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:padding="16dp"
+            android:clickable="true"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/clear"
+            android:layout_gravity="bottom|center"
+            app:backgroundTint="@android:color/holo_orange_light"
+            android:id="@+id/clearFab"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1">
+        </android.support.design.widget.FloatingActionButton>
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="mini"
+            android:layout_gravity="bottom|center"
+            app:srcCompat="@android:drawable/ic_menu_add"
+            app:backgroundTint="@android:color/holo_orange_light"
+            android:id="@+id/hitFab"
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:padding="16dp"
+            android:clickable="true"
+            app:fabSize="mini"
+            android:layout_gravity="bottom|center"
+            app:backgroundTint="@android:color/holo_orange_light"
+            android:id="@+id/counterFab"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1">
+        </android.support.design.widget.FloatingActionButton>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="mini"
+            app:srcCompat="@drawable/wcheck"
+            android:layout_marginTop="23dp"
+            android:id="@+id/doneFab"
+            android:layout_gravity="bottom|center"
+            android:layout_below="@+id/doneFab"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="1"
+            app:backgroundTint="@android:color/holo_orange_light"
+            />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.15" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            app:fabSize="mini"
+            android:layout_gravity="bottom|center"
+            app:srcCompat="@drawable/redo"
+            app:backgroundTint="@android:color/holo_orange_light"
+            android:layout_weight="1"
+            android:id="@+id/redoFab"
+            />
+
+    </LinearLayout>
+
+
+</android.support.design.widget.CoordinatorLayout>
